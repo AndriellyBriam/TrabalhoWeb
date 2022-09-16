@@ -1,51 +1,10 @@
-Para a atividade 1.2, vocês deverão fazer o seguinte:
-<br />
-<br />
-1 - Corrija possíveis erros da entrega 1.1
-<br />
-<br />
-2 - Crie um menu no index.html que terá tópicos e subtópicos, e assim vocês deverão utilizar nesse menu das tags h1 a h3. Quais serão esses tópicos e subtópicos é por conta de vocês, porque já que vocês tem um tema de site e todo site tem um menu com mais conteúdo, vocês precisam ser criativos. Já deixo como obrigatório dois tópicos, um para uma galeria e outro para contato. Cada item desse menu terá um <a>, que redirecionará para a página correspondente no seu site.
-<br />
-<br />
-3 - Na página galeria, vocês devem colocar no mínimo 5 fotos (sim, meu exemplo tem 3, mas vocês precisam de 5). As fotos devem ser baixadas e devem estar armazenadas em uma pasta imagens, lembrando que todas as fotos precisam de um alt correspondente. Outra coisa em relação a fotos que vocês devem fazer é, caso vocês utilizaram um link para a imagem do index.html, baixe a imagem e substitua o link pelo caminho da foto.
-<br />
-<br />
-4 - Sobre o favicon, é necessário que todas as páginas tenham um favicon, e sempre será o mesmo para todo o site.
-<br />
-<br />
-<br />
-É isso, boa sorte para todo mundo! O meu repositório sempre trará a atividade 1.2 como se eu fosse um aluno entregando a atividade, ou seja, explorem meu repositório para verem na prática o que eu tô pedindo! 
-<br />
-<br />
-E LEMBREM-SE DE FAZER O PUSH DO PROJETO QUANDO VOCÊS ACABAREM A ATIVIDADE E CONFERIR SE DEU CERTO!!! SE VOCÊS NÃO FIZEREM ISSO, O REPOSITÓRIO DE VOCÊS FICARÁ TRAVADO NA ENTREGA 1.1, E SERÁ PORTANTO CONSIDERADO QUE A ENTREGA 1.2 NÃO FOI REALIZADA!
-<br />
-<br />
-<br />
-Ana Júlia: Moto<br />
-Andrielly: Pepapig<br />
-Daniel: Carros Japoneses<br />
-Denis: Anos 80-00<br />
-Eduardo: Esportes<br />
-Elias: Funerária<br />
-Fabio: Vendas de canetas roubadas<br />
-Heloisa: Séries<br />
-Jean: Futebol (Cruzeiro)<br />
-João: Memes<br />
-Juan: Marca de roupa<br />
-Kaique: Horóscopo<br />
-Larissa: Academia<br />
-Lívia: Música (trap)<br />
-Lohanna: Shounen<br />
-Lucas: Futebol (São Paulo)<br />
-Maria Eduarda: Livros<br />
-Matheus: Sistema Solar<br />
-Melissa: Disney<br />
-Pedro Borges: Vendas (Informática)<br />
-Pedro Henrique: F1<br />
-Ruan: Futebol<br />
-Tamyris: Críticas de desenhos<br />
-Thiago: Vendas em geral<br />
-Vanessa: Confeitaria<br />
-Vinicius: Filmes<br />
-Warley: Games<br />
-Wesley: Aviação<br />
+Atividade 1.3
+<br>
+<br>
+Primeiro passo: Resolver pendências de entregas anteriores
+<br>
+Segundo passo: Todas as páginas do site devem conter agora um menu. Vocês devem utilizar corretamente os parâmetros next e prev. <b>Recado específico para a Turma 1: Eu falei para vocês colocarem em todas as páginas um link que volta para a página inicial, mas como eu pedi também que todas as páginas tenham o menu, não faz mais sentido ter esse link porque ele já vai existir no menu, então o prev fica no a da página inicial em cada menu (exceto, é claro, no próprio index.html</b>
+<br>
+Terceiro passo: Em alguma página do site de vocês deve conter um download usando a nova funcionalidade do a que eu mostrei para vocês. Vocês devem criar um contexto para que esse download faça sentido dentro do tema do site, e o arquivo de download pode ser de qualquer extensão existente. Lembrando que existe um parâmetro que recebe um valor específico para cada tipo de extensão, e tem um site em que se pode consultar quais são esses valores. O site para consulta está em alguma página do meu próprio site.
+<br>
+Quarto passo: Vocês devem utilizar listas no site de vocês, mas não é simplesmente criar qualquer lista. A orientação para a lista que cada um deve desenvolver está também em uma página do meu próprio site. A página onde vocês vão inserir essa lista vocês escolhem, desde que faça sentido aquela lista estar naquela página. Exemplo: No meu caso não seria permitido colocar uma lista de tags em HTML dentro da página galeria. Alguns de vocês vão ter que fazer uma pesquisa no Google para saber os itens que devem ser colocados nas listas.
