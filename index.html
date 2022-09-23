@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como fazer um site</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <h1>MENU</h1>
-        <h2><a href="index.html">Página Inicial</a></h2>
-        <h2><a href="galeria.html" rel="next">Galeria de Fotos</a></h2>
-        <h2><a href="conteudo.html">Contéudo da Disciplina</a></h2>
-            <h3><a href="html.html">HTML</a></h3>
-            <h3><a href="css.html">CSS</a></h3>
-        <h2><a href="fale_conosco.html">Fale Conosco</a></h2>
-    <br>
-    <br>
-    <ol type="i">
-        <li>Exemplo de lista ordenada item 1</li>
-        <li>Exemplo de lista ordenada item 2</li>
-        <li>Exemplo de lista ordenada item 3</li>
-    </ol>
-    <br>
-    <br>
-    <ul type="disk">
-        <li>Exemplo de lista não-ordenada item 1</li>
-        <li>Exemplo de lista não-ordenada item 1</li>
-        <li>Exemplo de lista não-ordenada item 1</li>
-    </ul>
-    <br>
-    <p>Ta aí um exemplo de lista para vocês.</p>
-    <p>Mas eu não vou mostrar o exemplo de listas dentro de listas, que vocês vão precisar para entrega. Isso porque a parada é muito intuitiva, basta vocês praticarem, testarem.</p>
-    <p>Segue <a href="imagens/lista.jpg">uma foto</a> de uma fica uma lista dentro de outra.</p>
-    <img src="imagens/hackerman.jpg" alt="Hackerman">
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Como fazer um site</title>
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h1>MENU</h1>
+            <h2><a href="index.html">Página Inicial</a></h2>
+            <h2><a href="galeria.html" rel="next">Galeria de Fotos</a></h2>
+            <h2><a href="conteudo.html">Contéudo da Disciplina</a></h2>
+                <h3><a href="html.html">HTML</a></h3>
+                <h3><a href="css.html">CSS</a></h3>
+            <h2><a href="fale_conosco.html">Fale Conosco</a></h2>
+        <br>
+        <br>
+        <p>
+            Sejam bem-vindos ao site sobre como fazer sites. Aqui você encontrará tudo o que precisa para realizar uma entrega adequada.
+        </p>
+        <p>
+            Sempre explorem meu site para vocês verem na prática exemplos do que peço em cada entrega. Eu espalho dicas sobre as entregas nas páginas e as vezes até no código dessas páginas, então vale muito a pena explorar meu site.</p>
+        <p>
+            E mais uma dica: não acumule entregas. Já viram ou brincaram de batata quente? Acumular entregas é o equivalente a uma pesssoa brincar de batata quente sem passar a batata para outra.
+        </p>
+
+        <!--
+            Cuidado para quando vocês forem utilizarem a tag picture, não trocar as extensões das fotos sem querer na hora de referenciar o caminho, já que no srcset não funciona o Ctrl+Espaço. Foi isso que aconteceu comigo, eu falei que minhas imagens chamavam alguma_coisa.jpg e eu tinha salvo elas como alguma_coisa.png. Mas agora tá certo, usem o exemplo abaixo para saberem como proceder.
+        -->
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/por-onde-comecar-p.jpg">
+            <source media="(max-width: 1050px)" srcset="imagens/por-onde-comecar-m.jpg">        
+            <img src="imagens/por-onde-comecar-g.jpg" alt="Criar sites: por onde eu começo?">
+        </picture>
+
+    </body>
 </html>
