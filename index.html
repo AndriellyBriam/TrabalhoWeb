@@ -29,11 +29,16 @@
         <!--
             Cuidado para quando vocês forem utilizarem a tag picture, não trocar as extensões das fotos sem querer na hora de referenciar o caminho, já que no srcset não funciona o Ctrl+Espaço. Foi isso que aconteceu comigo, eu falei que minhas imagens chamavam alguma_coisa.jpg e eu tinha salvo elas como alguma_coisa.png. Mas agora tá certo, usem o exemplo abaixo para saberem como proceder.
         -->
-        <picture>
-            <source media="(max-width: 750px)" srcset="imagens/por-onde-comecar-p.jpg">
-            <source media="(max-width: 1050px)" srcset="imagens/por-onde-comecar-m.jpg">        
-            <img src="imagens/por-onde-comecar-g.jpg" alt="Criar sites: por onde eu começo?">
-        </picture>
+        <p>
+            Quem quiser usar um software para redimensionar as imagens, existe um software gratuito chamado GIMP. No video abaixo vocês podem ver um video com um tutorial de como utilizá-lo (e vocês vão ver um parâmetro width na minha tag video, vocês não precisam colocar isso no de vocês):
+        </p>
+        <video controls width="300">
+            <source src="midia/gimp.mp4" type="video/mp4">
+            <source src="midia/gimp.m4v">
+            <source src="midia/gimp.webm">
+            <source src="midia/gimp.ogv">
+            <p>F</p>
+        </video>
 
     </body>
 </html>
