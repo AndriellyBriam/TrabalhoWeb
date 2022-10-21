@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>MENU</h1>
@@ -15,6 +16,40 @@
             <h3><a href="html.html">HTML</a></h3>
             <h3><a href="css.html">CSS</a></h3>
         <h2><a href="fale_conosco.html" rel="next">Fale Conosco</a></h2>
-    <p>Ainda não passei CSS, mas se você chegou até aqui não deixarei que sua caminha tenha sido em vão. Aqui vai uma dica: Caso o áudio não esteja aparecendo na sua página ou o video baixado apresente apenas a thumbnail sem ter como dar play, provavelmente você esqueceu de colocar o parâmetro controls.</p>
+        <br>
+        <br>
+        <p><strong>AVISO IMPORTANTE: PARA QUEM NÃO FEZ NADA DO SITE OU FEZ APENAS UMA PÁGINA, PARA ESSA ENTREGA VOCÊS OBRIGATORIAMENTE PRECISAM DE NO MÍNIMO TRÊS PÁGINAS E UM MENU NAS TRÊS: PÁGINA INICIAL, GALERIA E FALE CONOSCO.</strong></p>
+        <p>O tema principal dessa atividade é paleta de cores em sites. Para essa entrega, vocês devem seguir os seguintes passos:</p>
+        <p><strong>1º Passo:</strong> Definir a paleta de cores do seu site e escrever um código CSS (ou modificar o meu). Vocês devem também tirar um print da tela com a paleta de cores e criar um arquivo de imagem com esse print que deve ser incluído na pasta imagens. Essa imagem não precisa estar no site em si, mas no repositório sim. Lembrando que não é permitido o uso de qualquer paleta, existe um conjunto de regras que está detalhada nessa página. Todas as páginas do seu site devem estar linkadas a esse arquivo CSS. Leiam esse conjunto de regras para evitar penalizações.</p>
+        <p><strong>2º Passo:</strong> Escolha uma página do seu site para ter uma formatação diferente do resto do padrão do site. Faça toda essa formatação utilizando CSS interno. Não tem ocorrências de CSS interno no meu repositório, então essa parte vocês vão ter que lembrar da aula.</p>
+        <p><strong>3º Passo:</strong> Utilizar em alguma parte do seu site um CSS inline. Esse também não tem nenhuma ocorrência no meu repositório, então vocês vão ter que lembrar como faz.</p>
+        <p><strong>Observação 1: Eu ia cobrar fonte de letra agora, mas vai ficar para a próxima entrega.</strong></p>
+        <p><strong>Observação 2: É importante que todo o conteúdo do site fique bem legível, e mudar as cores pode acabar deixando alguma coisa com a visibilidade prejudicada. Vocês devem verificar se alguma parte do site de vocês ficou com a visibilidade prejudicada e buscar resolver esse problema. No meu caso, por exemplo, a minha lista ficou com a visibilidade muito prejudicada, então tive que usar CSS para mudar as propriedades de formatação da lista. Meu plano inicial era mudar só parágrafos, body e títulos. Fiquem atentos a isso!</strong></p>
+
+        <h1>ESCOLHENDO UMA PALETA DE CORES</h1>
+        <p>Nem toda combinação de cores é válida, existem algumas convenções e regras. Por convenção, existem certas combinações de cores que não agridem os olhos, e isso está muito ligado ao estudo da psicologia das cores, ramo da arquitetura/design. É claro que vocês não precisam entender a fundo essa parte, porque a disciplina é de desenvolvimento, não de design. Por isso, vamos cortar caminho e usar ferramentas que já entregam cores que são compatíveis. Abaixo terá duas ferramentas que vocês devem utilizar.</p>
+        <p>A primeira delas é a <a href="https://color.adobe.com/pt/create/color-wheel" target="_blank" rel="external">Adobe Color</a>. Escolha uma regra de harmonia das cores e arraste um dos círculos pequenos para dentro de uma cor que você quer que esteja no seu site. Automaticamente, essa ferramenta irá aplicar a regra de harmonia que você escolheu para montar a paleta de cores.</p>
+        <p>Caso você não esteja contente com a combinação de cores, basta mudar a regra de harmonia. Mas atenção! Priorize regras de harmonia que entreguem cores com alto contraste, ou seja, fuja das regras de harmonia de cores que sejam muito claras e próximas uma das outras. Veja um exemplo de uma regra de harmonia que não possui um bom contraste entre cores.</p>
+        <img src="imagens/paleta-ruim.jpg" alt="Paleta de cores ruim para daltônico. Sim, eu sei que tá fora da tag picture. Eu posso, vocês não, valeu.">
+        <p>A segunda ferramenta é a <a href=”https://coolors.co/” target=”_blank” rel=”external”>Coolors</a>. Nela, ao apertar a barra de espaços será trocada todas as cores da tela. Ao encontrar uma cor que você quer no seu site, passe o mouse encima dela e clique na opção do cadeado. Depois continue apertando espaço até achar outra cor que você quer e repita o processo do cadeado. Faça isso até conseguir a paleta de cores que você quer para seu site.</p>
+        <h2>CONFERINDO SE AS CORES SÃO INCLUSIVAS PARA DALTÔNICOS</h2>
+        <p>Faremos essa conferência utilizando a ferramenta Coolors, mesmo se você tiver escolhido a sua paleta de cores usando Adobe Color.</p>
+        <p>Se você usou Adobe Colors, o que você vai ter que fazer é copiar o código hexadecimal de cada cor, ir na Coolors e colar esse código em cada cor, clicando no código delas para substituir.</p>
+        <img src="imagens/substituir-cor.jpg" alt="Substituindo uma cor por outra no Coolors">
+        <p>A partir desse ponto todos devem então ter suas respectivas paletas de cores no Coolors, e faremos  agora a conferência para cada tipo de daltônismo. Existem 4 tipos, aparece 8 nessa ferramenta porque para cada tipo tem o daltonismo parcial e total. Enfim, o que vocês devem fazer é clicar no ícone do óculos nesse site e selecionar cada um dos tipos de daltonismo, conferindo se alguma cor fica igual a outra. Se ficar, já era, essa paleta de cores é ruim e você vai ter que montar outra. Abaixo um exemplo de uma paleta de cores ruim, a terceira e quinta cor são a mesma para daltonismo do tipo Deuteranopia.</p>
+        <img src="imagens/paleta-deuteranopia.jpg" alt="Paleta de cores não inclusiva para deuteranopia">
+        <p>Montada e validada então a paleta de cores, seu site poderá utilizar essas 5 cores, além do preto e o branco. "Onde vou usar cada uma"? Você escolhe, muda o código CSS de uma forma, se ficar ruim você muda a ordem das cores, simples assim. Lembre-se que todas as informações do site devem continuar legíveis! Por isso que preto e branco estão presentes em todas as paletas de cores de sites.</p>
+        <h1>SISTEMA DE PENALIZAÇÕES DA ENTREGA 2.1</h1>
+        <ul type="disk">
+            <li>Não usar CSS inline: -2pts</li>
+            <li>Usar CSS inline incorretamente: -1pt</li>
+            <li>Não usar CSS interno: -2pts</li>
+            <li>Usar CSS interno incorretamente: -1pt</li>
+            <li>Não usar CSS externo: -2pts</li>
+            <li>Usar CSS externo incorretamente: -1pt</li>
+            <li>Paleta de cores incorreta: -2pts</li>
+            <li>Não adicionar o arquivo de imagem com a paleta de cores, ou qualquer erro relacionado a esse arquivo: -2pts</li>
+            <li>Visibilidade prejudicada em outras partes do site: -1pt</li>
+        </ul>
 </body>
 </html>
