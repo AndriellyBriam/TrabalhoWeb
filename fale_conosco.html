@@ -1,31 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>MENU</h1>
-        <h2><a href="index.html" rel="prev">Página Inicial</a></h2>
-        <h2><a href="galeria.html">Galeria de Fotos</a></h2>
-        <h2><a href="conteudo.html">Contéudo da Disciplina</a></h2>
-            <h3><a href="html.html">HTML</a></h3>
-            <h3><a href="css.html">CSS</a></h3>
-        <h2><a href="fale_conosco.html">Fale Conosco</a></h2>
-    <p>Todos os sites terão essa página fale conosco, aqui implementaremos nas próximas entregas um formulário para que outras pessoas possam entrar em contato para elogios, reclamações, sugestões, etc. </p>
-    <p>Enquanto a página não fica pronta, deixem suas reclamações com o Milton. Mas olha só: o Milton deixou uma dica para vocês! "Não esqueçam dos parágrafos de contingência para audios e videos baixados!", disse o Milton.
-    </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body {
+                background-color: #f1fff390;
+            }
 
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/milton-p.jpg">
-        <source media="(max-width: 1050px)" srcset="imagens/milton-m.jpg">        
-        <img src="imagens/milton-m.jpg" alt="Milton, o gerente de reclamações">
-    </picture>
+            p {
+                color: #00000cdc;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>MENU</h1>
+            <h2><a href="index.html" rel="prev">Página Inicial</a></h2>
+            <h2><a href="galeria.html">Galeria de Fotos</a></h2>
+            <h2><a href="conteudo.html">Contéudo da Disciplina</a></h2>
+                <h3><a href="html.html">HTML</a></h3>
+                <h3><a href="css.html">CSS</a></h3>
+            <h2><a href="fale_conosco.html">Fale Conosco</a></h2>
+            <br><br>
+            <h2 style="background-color: #00000000; color: #000000;">Entrega 2.1</h2>
+            <p>Para essa entrega, vocês devem fazer um formulário para o site de vocês, utilizando todos os itens apresentados na aula. São eles:</p>
+            <ul>
+                <li>Texto - Obrigatório usar o parâmetro que muda o tamanho da caixa e o placeholder</li>
+                <li>Senha</li>
+                <li>E-mail</li>
+                <li>Data</li>
+                <li>Radio - Obrigatório no mínimo duas opções</li>
+                <li>Número</li>
+                <li>Range  - Obrigatório definir mínimo e máximo</li>
+                <li>Seleção - Obrigatório no mínimo três opções</li>
+            </ul>
+            <p>O formulário de vocês pode ter mais de um item do mesmo tipo, mas é obrigatório no mínimo um item de cada tipo. Também será obrigatório ter no mínimo dois fieldsets.</p>
+            <p>Agora o mais importante: Os itens do formulário devem ter relação direta com o tema do site, ou seja, nada de fazer um formulário genérico.</p>
+            <p>Agora vamos as penalizações:</p>
+            <ul>
+                <li>Estruturação errada do formulário: -1pt</li>
+                <li>Uso errado de algum item: -1pt por item</li>
+                <li>Não utilização de algum item: -2pts por item</li>
+                <li>Formulário genérico: -5pts</li>
+                <li>Cola: -10pts</li>
+            </ul>
+            <p>Lembrem-se também de corrigir os possíveis erros da entrega 2.1, pois a persistência desses erros terá penalização dobrada.</p>
+            <br>
 
-    <p>Voltar para a <a href="index.html" rel="prev">página inicial</a></p>
-</body>
+            <form>
+                <fieldset>
+                    <legend>Título do campo</legend>
+                    <p><label for="idCampoDeTexto">Campo de texto: </label><input type="text" name="nCampoDeTexto" id="idCampoDeTexto"></p> 
+                    <p><label for="idCampoDeData">Campo de data: </label><input type="date" name="nCampoDeData" id="idCampoDeData"></p>
+                    <p><label for="idCampodeNumero">Campo de número: </label><input type="number" name="nCampodeNumero" id="idCampodeNumero"></p>
+                    <p><label for="idCampoDeRange">Campo de range: </label><input type="range" name="nCampoDeRange" id="idCampodeRange"></p>
+                    <h4 style="color: #ff0000; background-color: #000000;">Tem ainda outros tipos de dados, e é bom que você lembre deles.</h4>
+                </fieldset>
+            </form>     
+    </body>
 </html>
